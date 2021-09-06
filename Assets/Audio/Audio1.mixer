@@ -22,6 +22,34 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &-5045060735014210356
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: b03c803dd43b54a47abf7855c884a2c2
+  m_EffectName: Duck Volume
+  m_MixLevel: bbfc88a99d864b84db35c7c2a1404cf3
+  m_Parameters:
+  - m_ParameterName: Threshold
+    m_GUID: 89587f94cd57f294c9f45fb3e199bb28
+  - m_ParameterName: Ratio
+    m_GUID: c7d9f2b5384ff62428f292430ba03aa1
+  - m_ParameterName: Attack Time
+    m_GUID: d9af2134549781648925f2205dfa501d
+  - m_ParameterName: Release Time
+    m_GUID: 87477527eb29fc941b3864ed1d11be08
+  - m_ParameterName: Make-up Gain
+    m_GUID: a1421ac1d90ef6241a59bfb6fc96d1a7
+  - m_ParameterName: Knee
+    m_GUID: 5588c11a2aee31f4cbdcebf093e3ebbb
+  - m_ParameterName: Sidechain Mix
+    m_GUID: 72d5627923ae40f41a763ebc66729162
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &-4657436244691155313
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -49,6 +77,22 @@ AudioMixerEffectController:
     m_GUID: 6b9cd52d8191fb94abbb8c67824a63e4
   - m_ParameterName: Feedback
     m_GUID: bfc38dc46039f6d43be434c8e5ebc1c0
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
+--- !u!244 &-942842025207060722
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 8777c0d74a0966f49bed89d90d9b79ba
+  m_EffectName: Distortion
+  m_MixLevel: b601747ff63b2ee498ec8563604ce454
+  m_Parameters:
+  - m_ParameterName: Level
+    m_GUID: 08729b5bd995cc747898a580e9bc31b2
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
@@ -89,6 +133,7 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 24400004}
+  - {fileID: -942842025207060722}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -117,5 +162,7 @@ AudioMixerSnapshotController:
   m_AudioMixer: {fileID: 24100000}
   m_SnapshotID: 5556b0dc37af8b546a9af25aed7a071e
   m_FloatValues:
-    84963fa722880dd4880b27016c7563d2: -19.928473
+    cce608d1d3d669f40be5c1d8e14ecae5: 0.5
+    84963fa722880dd4880b27016c7563d2: -39.03094
+    08729b5bd995cc747898a580e9bc31b2: 0.906
   m_TransitionOverrides: {}
