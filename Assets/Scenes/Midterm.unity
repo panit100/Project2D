@@ -10909,8 +10909,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27cb3e6c6de4b31408f8c5987b108a85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Noise: {fileID: 1637373759}
-  Bell: {fileID: 323144560}
   VcamSet:
   - DarkVolume: 0
     vcam: {fileID: 1884373187}
@@ -10959,6 +10957,8 @@ MonoBehaviour:
   Redeye1: {fileID: 271406830}
   Redeye2: {fileID: 575113905}
   monster: {fileID: 1080367115}
+  Noise: {fileID: 1637373759}
+  Bell: {fileID: 323144560}
 --- !u!1 &414493720
 GameObject:
   m_ObjectHideFlags: 0
