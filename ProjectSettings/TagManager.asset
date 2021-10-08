@@ -51,11 +51,14 @@ TagManager:
   - name: Ground
     uniqueID: 4170196289
     locked: 0
-  - name: Character
-    uniqueID: 2396479831
-    locked: 0
   - name: Particle
     uniqueID: 256985011
+    locked: 0
+  - name: CanvasWorld
+    uniqueID: 771351989
+    locked: 0
+  - name: Character
+    uniqueID: 2396479831
     locked: 0
   - name: Default
     uniqueID: 0
