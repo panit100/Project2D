@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/NewGame/1.unity
-    guid: cba4a0581e4be9344a67510b5f39d2ea
+    path: Assets/Scenes/PlanetPong/PlanetPong.unity
+    guid: f46f6eff254b11943b5d51fd6959fe4a
   m_configObjects: {}

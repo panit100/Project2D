@@ -8,6 +8,8 @@ TagManager:
   - Key
   - Paddle
   - Ball
+  - Sun
+  - Blackhole
   layers:
   - Default
   - TransparentFX
